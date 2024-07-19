@@ -41,7 +41,7 @@ setInterval(() => {
     <!-- 中 -->
     <div class="w-1/2 mr-5 flex flex-col">
       <!-- 数据总览图 -->
-      <TotalData class="bg-opacity-50 bg-slate-800" />
+      <TotalData class="bg-opacity-50 bg-slate-800" :data="appData.totalData" />
       <!-- 地图可视化 -->
       <MapChart class="bg-opacity-50 bg-slate-800 flex-1 mt-4" />
     </div>
